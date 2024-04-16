@@ -57,11 +57,30 @@ body  {
     display: block;
 }
 
+.abas-textos{
+    background-color: burlywood;
+    padding: 40px;
+    border-radius: 0 0 40px 40px;
+}
+
+.aba-conteudo-ativo{
+    display: block;
+}
+
+.aba-conteudo {
+    display: none;
+}
+
+.aba-conteudo-titulo-principal{
+    text-align: center;
+    font-size: 28px;
+}
+
 @media screen and (min-width: 768px) {
     .botoes {
         display: flex;
     }
-}
+
 .botao:first-child {
     border-radius: 40px 0 0 0;
 }
@@ -74,5 +93,5 @@ body  {
 .ativo{
     background-color: #a5fcc2;
     border-bottom: #868585;
-    
+}   
 }
